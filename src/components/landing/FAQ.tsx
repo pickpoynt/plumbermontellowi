@@ -3,84 +3,76 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How much is a typical heat treatment for bed bugs?",
-    answer: "In Baltimore, a typical residential heat treatment ranges from $1,000 to $3,000 depending on the square footage and the severity of the infestation."
+    question: "How much does mold cost to remediate?",
+    answer: "Mold remediation in Eau Claire, WI typically ranges from $500 to $6,000 depending on the mold type, location, and extent of growth. Basement or crawl space projects in Wisconsin homes average around $2,000–$3,500."
   },
   {
-    question: "Does heat treatment for bed bugs really work?",
-    answer: "Yes, heat treatment is highly effective. It is the only method that can achieve 100% eradication of bed bugs and their eggs in a single session by reaching every corner of the home."
+    question: "How much does it cost to get rid of mold?",
+    answer: "Getting rid of mold in an Eau Claire home typically costs $1,500–$4,000 for average infestations. Smaller bathroom mold jobs may cost $300–$800, while large attic or basement projects can exceed $5,000."
   },
   {
-    question: "How much does Terminix charge for bed bug heat treatment?",
-    answer: "Major national companies like Terminix often charge between $1,500 and $4,000 for comprehensive bed bug heat remediation services."
+    question: "Is mold remediation worth the cost?",
+    answer: "Absolutely yes. Professional mold remediation protects your family's health, prevents structural damage, and maintains your property value. Left untreated, mold damage in Eau Claire homes can cost tens of thousands in repairs."
   },
   {
-    question: "How much to rent a bed bug heater?",
-    answer: "Renting a bed bug heater in Baltimore can cost between $200 and $500 per day. however, professional treatment is recommended for guaranteed results and safety."
+    question: "Is there a difference between mold removal and mold remediation?",
+    answer: "Yes, there is an important difference. Mold removal eliminates visible mold. Mold remediation is a full-scale process: containment, HEPA air filtration, removal, surface treatment, moisture source correction, and post-clearance testing."
   },
   {
-    question: "Will homeowners insurance cover bed bugs?",
-    answer: "Generally, no. Most homeowners insurance policies consider bed bug infestations a maintenance issue and do not provide coverage for treatment or damage."
+    question: "Can I remediate mold myself?",
+    answer: "For very small, isolated patches (under 10 sq ft) on non-porous surfaces, DIY treatment is possible. However, for black mold, hidden mold behind walls, or large infestations in Eau Claire homes, professional remediation is essential."
   },
   {
-    question: "How much does Orkin charge for bed bugs?",
-    answer: "Orkin's pricing for bed bug services typically starts around $1,500 for specialized treatments, varying based on the size of the area being treated."
+    question: "Is professional mold removal worth it?",
+    answer: "Yes. Professionals use industrial HEPA air scrubbers, negative pressure containment, and EPA-registered biocides that ensure complete removal and air quality verification — far beyond what DIY methods can achieve."
   },
   {
-    question: "What do exterminators do to get rid of bed bugs?",
-    answer: "Exterminators use industrial heaters to raise the temperature of the home to 120°F-140°F, using high-powered fans to circulate the air and ensure every hiding spot is treated."
+    question: "What kills 100% of mold?",
+    answer: "There is no single product that permanently kills 100% of mold. Professional remediation — combining physical removal, HEPA vacuuming, EPA-approved antimicrobials, and moisture control — provides the most complete solution."
   },
   {
-    question: "How much do bed bug exterminators charge?",
-    answer: "Chemical treatments may start at $300 per room, while whole-home heat treatments typically range from $1,000 to $3,500+ depending on the home's size."
+    question: "Can a house full of mold be saved?",
+    answer: "In most cases, yes. Even severely mold-affected Eau Claire homes can be fully restored through comprehensive remediation, structural drying, replacement of heavily contaminated materials, and moisture source correction."
   },
   {
-    question: "What draws bed bugs out of hiding during the day?",
-    answer: "Bed bugs are primarily attracted to the CO2 and body heat emitted by humans. While they are nocturnal, they will come out during the day if they are hungry."
+    question: "What are signs of mold exposure?",
+    answer: "Common signs of mold exposure include chronic coughing, nasal congestion, eye and throat irritation, skin rashes, persistent fatigue, headaches, and aggravated asthma or allergy symptoms that improve when you leave the property."
   },
   {
-    question: "What are the downsides of heat treatment?",
-    answer: "The primary downsides are the higher initial cost compared to chemical sprays and the preparation required, such as removing heat-sensitive items from the home."
+    question: "What to do if you can't afford mold remediation?",
+    answer: "Contact your homeowner's insurance provider — mold from a sudden water event is often covered. Wisconsin has assistance programs for qualifying homeowners, and many remediation companies in Eau Claire offer financing plans."
   },
   {
-    question: "How did people get rid of bed bugs in the old days?",
-    answer: "Historically, people used extreme methods like boiling water, kerosene, and even toxic chemicals like DDT before safer, more effective thermal methods were developed."
+    question: "Do air purifiers help with mold?",
+    answer: "HEPA air purifiers can reduce airborne mold spores and improve air quality, but they cannot remove mold from surfaces. They are a helpful supplement to professional remediation, not a replacement for it."
   },
   {
-    question: "Can I do bed bug heat treatment myself?",
-    answer: "DIY heat treatment is not recommended. Household heaters cannot safely reach the sustained lethal temperatures required for complete eradication."
+    question: "Can black mold be fully remediated?",
+    answer: "Yes. Black mold (Stachybotrys chartarum) can be completely and safely remediated by certified professionals. The process uses full containment, protective equipment, specialized biocides, and disposal of all contaminated materials."
   },
   {
-    question: "Can bed bugs live in clothes?",
-    answer: "Yes, bed bugs frequently hide in clothing. Washing and drying clothes on the highest heat setting is a critical step in the remediation process."
+    question: "Do you have to throw everything away with mold in the house after?",
+    answer: "Not necessarily. Heavily mold-affected porous materials like drywall and insulation typically require removal. However, many non-porous surfaces and belongings can be cleaned, HEPA vacuumed, and safely retained."
   },
   {
-    question: "Can you feel bed bugs crawling on you?",
-    answer: "Most people do not feel bed bugs crawling. They are extremely light and usually feed while the host is in a deep sleep."
+    question: "Can mold ever be fully removed?",
+    answer: "Yes, mold can be fully removed through professional remediation. The critical step is also addressing the underlying moisture source — without fixing leaks, humidity, or water intrusion, mold will return."
   },
   {
-    question: "How to 100% get rid of bed bugs?",
-    answer: "Professional heat treatment is the most reliable method to achieve 100% eradication of adults, nymphs, and eggs in a single visit."
+    question: "How long should you stay out of the house after mold remediation?",
+    answer: "Most Eau Claire homeowners can return within a few hours after remediation is complete. For large projects involving strong biocides, technicians may recommend waiting 24 hours for full ventilation and off-gassing."
   },
   {
-    question: "Can bed bugs live in pillows?",
-    answer: "Yes, bed bugs can hide in pillow seams or deep inside the pillow stuffing. We recommend treating all bedding during the heat remediation process."
+    question: "What kills mold permanently?",
+    answer: "Controlling moisture is the most permanent solution. Combined with professional mold removal, application of encapsulating coatings, and eliminating humidity or water intrusion, mold can be prevented from returning long-term."
   },
   {
-    question: "Why is bed bug heat treatment so expensive?",
-    answer: "The cost reflects the specialized industrial equipment, the high energy consumption, and the intensive labor required to monitor and manage lethal temperatures safely."
+    question: "Is it okay to live in a house with mold?",
+    answer: "It depends on the type and extent. Small surface molds carry lower risks, but living with black mold or large infestations is dangerous long-term. Eau Claire homeowners facing significant mold growth should seek professional remediation immediately."
   },
   {
-    question: "Does homeowners insurance cover bed bugs?",
-    answer: "No, bed bugs are almost universally excluded from standard homeowners and renters insurance policies in Maryland."
-  },
-  {
-    question: "Can I use a space heater to get rid of bed bugs?",
-    answer: "No. Standard space heaters are a fire hazard when run at high temperatures for long periods and cannot produce the even, intense heat needed for eradication."
-  },
-  {
-    question: "Can you do heat treatment for bed bugs in an apartment?",
-    answer: "Yes, heat treatment is ideal for apartments as it is non-toxic and effectively kills bed bugs without forcing them to move into neighboring units."
+    question: "How do people pay for mold remediation?",
+    answer: "Homeowners in Eau Claire most commonly pay through insurance (when caused by sudden water damage), out-of-pocket, or with financing plans offered by remediation companies. Wisconsin assistance programs may also be available for eligible homeowners."
   }
 ];
 
@@ -92,10 +84,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Bed Bug Heat Treatment <span className="text-indigo-600">in Baltimore MD FAQ</span>
+            Mold Remediation <span className="text-indigo-600">in Eau Claire WI FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about thermal remediation, professional eradication techniques, and protection in Baltimore.
+            Common questions about professional mold remediation, removal techniques, costs, and health concerns in Eau Claire, Wisconsin.
           </p>
         </div>
 

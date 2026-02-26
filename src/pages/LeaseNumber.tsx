@@ -7,8 +7,8 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Baltimore Bed Bug Heat Treatment Pros</title>
-                <meta name="description" content="Replace this bed bug heat treatment phone number with your own business line in Baltimore, MD for only $19 a month. Contact leasemynumber@gmail.com to get started." />
+                <title>Lease This Phone Number - Eau Claire Mold Remediation Pros</title>
+                <meta name="description" content="Replace this mold remediation phone number with your own business line in Eau Claire, WI for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -29,7 +29,7 @@ const LeaseNumber = () => {
                                 Lease This Phone Number
                             </h1>
                             <p className="text-indigo-100 text-xl max-w-2xl mx-auto leading-relaxed font-medium italic text-nowrap">
-                                Run a bed bug removal business in Baltimore MD? Replace this number <br /> with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
+                                Run a mold removal business in Eau Claire WI? Replace this number <br /> with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
                             </p>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const LeaseNumber = () => {
                             <ul className="space-y-5">
                                 {[
                                     "Your business phone number displayed site-wide",
-                                    "All inbound bed bug inquiries routed to you",
+                                    "All inbound mold remediation inquiries routed to you",
                                     "Full local SEO benefit of an optimized landing page",
                                     "Exclusive placement — only one business at a time",
                                     "Month-to-month, no long-term contract",
@@ -73,13 +73,13 @@ const LeaseNumber = () => {
                                     <p className="text-slate-500 font-medium text-sm">per month · billed monthly</p>
                                 </div>
                                 <p className="text-slate-600 text-sm leading-relaxed italic mb-8">
-                                    To get started, simply email us at the address below. We'll confirm availability, swap in your number, and have you receiving calls within 24 hours.
+                                    To get started, simply email us at the address below. We'll confirm availability, swap in your number, and have you receiving mold remediation calls within 24 hours.
                                 </p>
                             </div>
 
                             <div className="space-y-4">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Baltimore Bed Bug - $19/month"
+                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Eau Claire Mold Remediation - $19/month"
                                     className="w-full inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all hover:gap-4 shadow-lg shadow-indigo-900/20"
                                 >
                                     <Mail className="w-5 h-5" />

@@ -3,23 +3,23 @@ import { ShieldCheck, Clock, Award, Hammer } from "lucide-react";
 const features = [
   {
     icon: Clock,
-    title: "Same-Day Eradication",
-    description: "Bed bug infestations require immediate action. Our Baltimore team provides complete thermal remediation in just one session, ensuring you sleep soundly tonight."
+    title: "Same-Day Response",
+    description: "Mold infestations require immediate action. Our Eau Claire team provides rapid assessment and begins remediation fast, stopping the spread before it causes more damage."
   },
   {
     icon: Hammer,
-    title: "Thermal Mastery",
-    description: "We are bed bug experts. Our technicians use industrial-grade heaters and precision monitoring to ensure lethal temperatures reach every hiding spot."
+    title: "Wisconsin Mold Experts",
+    description: "We specialize in Wisconsin's unique humidity and freeze-thaw climate conditions that make Eau Claire homes particularly vulnerable to basement and crawl space mold growth."
   },
   {
     icon: Award,
-    title: "Baltimore Certified",
-    description: "Fully licensed and insured specifically for bed bug heat treatments in Maryland. We follow strict safety protocols for all eradication services."
+    title: "Wisconsin Certified",
+    description: "Fully licensed and insured mold remediation contractors in Wisconsin. We follow strict IICRC S520 mold remediation standards for safe and effective treatments."
   },
   {
     icon: ShieldCheck,
-    title: "100% Success Rate",
-    description: "Our heat treatment process is proven to eliminate bed bugs at all life stages, including eggs, providing a permanent solution to your infestation."
+    title: "Guaranteed Results",
+    description: "Our remediation process is proven to eliminate mold at the source, including spores and root systems, providing a long-lasting solution for your Eau Claire property."
   }
 ];
 
@@ -29,11 +29,11 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl md:text-6xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Premium <span className="text-indigo-600 border-b-4 border-indigo-600/20">Bed Bug Heat</span> <br />
-            Experts in Baltimore MD
+            Premium <span className="text-indigo-600 border-b-4 border-indigo-600/20">Mold Remediation</span> <br />
+            Experts in Eau Claire WI
           </h2>
           <p className="text-lg text-slate-600 font-medium max-w-2xl mx-auto">
-            Providing Baltimore and the surrounding areas with specialized, professional bed bug heat treatment and property protection services.
+            Providing Eau Claire and surrounding Chippewa Valley communities with specialized, professional mold removal and property protection services.
           </p>
         </div>
 
@@ -42,28 +42,28 @@ const WhyUs = () => {
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
             <img
               src="/2.jpeg"
-              alt="Professional Bed Bug Control in Baltimore"
+              alt="Professional Mold Remediation in Eau Claire WI"
               className="rounded-[3rem] shadow-2xl relative z-10 border-8 border-white mx-auto"
             />
             <div className="absolute -bottom-8 -right-8 bg-indigo-600 text-white p-8 rounded-3xl shadow-xl z-20 border border-indigo-500 max-w-[240px]">
               <p className="text-4xl font-bold mb-1">100%</p>
-              <p className="text-xs font-bold uppercase tracking-widest leading-tight">Success Rate in Baltimore MD</p>
+              <p className="text-xs font-bold uppercase tracking-widest leading-tight">Success Rate in Eau Claire WI</p>
             </div>
           </div>
 
           <div className="space-y-8">
             {[
               {
-                title: "Bed Bug Free Home",
-                desc: "Our thermal methods stop infestations immediately, saving your furniture, mattresses, and peace of mind from bed bug destruction."
+                title: "Mold-Free Property",
+                desc: "Our certified methods stop mold growth immediately, protecting your drywall, insulation, and structural timbers from costly mold-related destruction."
               },
               {
-                title: "Localized Expertise",
-                desc: "We understand the specific challenges of Baltimore's urban environment and how bed bugs spread in multi-unit housing."
+                title: "Eau Claire Climate Expertise",
+                desc: "We understand how Wisconsin's cold winters and humid summers drive mold growth in Eau Claire homes — and we address root moisture causes, not just symptoms."
               },
               {
-                title: "Precision Remediation",
-                desc: "Using advanced heat sensors, we monitor every room to ensure lethal temperatures are maintained for complete eradication."
+                title: "Post-Remediation Testing",
+                desc: "After every job, we perform independent air quality testing to confirm your Eau Claire property meets safe mold spore count standards before we leave."
               }
             ].map((item, i) => (
               <div key={i} className="flex gap-6 group">
@@ -80,14 +80,14 @@ const WhyUs = () => {
             <div className="pt-8 border-t border-slate-200">
               <div className="flex flex-col sm:flex-row items-center gap-6">
                 <div>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Ready to reclaim your home?</p>
-                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Baltimore's Best</h4>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Ready to restore your property?</p>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Eau Claire's Best</h4>
                 </div>
                 <a
-                  href="tel:3238801224"
+                  href="tel:3802660944"
                   className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all shadow-lg shadow-indigo-900/20 hover:-translate-y-1 inline-flex items-center justify-center w-full sm:w-auto text-nowrap"
                 >
-                  3238801224
+                  3802660944
                 </a>
               </div>
             </div>

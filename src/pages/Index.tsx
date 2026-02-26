@@ -2,45 +2,45 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import BedBugHeatTreatmentInfo from "@/components/landing/BedBugHeatTreatmentInfo";
+import MoldRemediationInfo from "@/components/landing/MoldRemediationInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
-import { Search, ShieldCheck, Zap } from "lucide-react";
+import { ShieldCheck, Wind, Microscope } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>bed bug heat treatment baltimore md | Baltimore Bed Bug Heat Treatment Pros</title>
-        <meta name="description" content="Looking for professional bed bug heat treatment baltimore md? Expert thermal elimination, 100% eradication, and discreet bed bug removal for Baltimore homes. Call 3238801224 today!" />
-        <meta name="keywords" content="bed bug heat treatment baltimore md, Baltimore bed bug exterminator, heat treatment for bed bugs Baltimore, professional bed bug removal Baltimore MD, pest control Baltimore" />
-        <link rel="canonical" href="https://bedbugheattreatmentbaltimoremd.vercel.app/" />
+        <title>mold remediation eau claire wi | Eau Claire Mold Remediation Pros</title>
+        <meta name="description" content="Looking for professional mold remediation eau claire wi? Expert mold removal, air quality testing, and full property mold remediation for Eau Claire homes. Call 3802660944 today!" />
+        <meta name="keywords" content="mold remediation eau claire wi, Eau Claire mold removal, mold remediation Eau Claire Wisconsin, professional mold removal Eau Claire WI, mold inspection Eau Claire" />
+        <link rel="canonical" href="https://moldremediationeauclairewi.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Baltimore Bed Bug Heat Treatment Pros",
+            "name": "Eau Claire Mold Remediation Pros",
             "image": "/1.jpeg",
-            "@id": "https://bedbugheattreatmentbaltimoremd.vercel.app/",
-            "url": "https://bedbugheattreatmentbaltimoremd.vercel.app/",
-            "telephone": "+13238801224",
+            "@id": "https://moldremediationeauclairewi.vercel.app/",
+            "url": "https://moldremediationeauclairewi.vercel.app/",
+            "telephone": "+13802660944",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Inner Harbor",
-              "addressLocality": "Baltimore",
-              "addressRegion": "MD",
-              "postalCode": "21201",
+              "streetAddress": "2000 Eastridge Center",
+              "addressLocality": "Eau Claire",
+              "addressRegion": "WI",
+              "postalCode": "54701",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.2904",
-              "longitude": "-76.6122"
+              "latitude": "44.8113",
+              "longitude": "-91.4985"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -55,32 +55,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Bed Bug Heat Treatment",
+            "serviceType": "Mold Remediation",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Baltimore Bed Bug Heat Treatment Pros"
+              "name": "Eau Claire Mold Remediation Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Baltimore, MD"
+              "name": "Eau Claire, WI"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Bed Bug Eradication Services",
+              "name": "Mold Remediation Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Heat Treatment" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Bed Bug Eradication" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermal Remediation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bed Bug Inspections" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Mold Removal" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Mold Remediation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Black Mold Treatment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mold Inspections & Air Quality Testing" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="bed bug heat treatment baltimore md | Baltimore Bed Bug Heat Treatment Pros" />
-        <meta property="og:description" content="Expert bed bug heat treatment services in Baltimore, MD. Get 100% elimination in a single day with professional thermal remediation." />
+        <meta property="og:title" content="mold remediation eau claire wi | Eau Claire Mold Remediation Pros" />
+        <meta property="og:description" content="Expert mold remediation services in Eau Claire, WI. Professional black mold removal, air quality testing, and full property restoration. Call 3802660944 today!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bedbugheattreatmentbaltimoremd.vercel.app/" />
+        <meta property="og:url" content="https://moldremediationeauclairewi.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -89,24 +89,24 @@ const Index = () => {
         <Hero
           title={
             <>
-              Bed Bug <br />
-              <span className="text-white drop-shadow-sm uppercase">Heat Treatment in Baltimore MD</span>
+              Mold <br />
+              <span className="text-white drop-shadow-sm uppercase">Remediation in Eau Claire WI</span>
             </>
           }
-          subtitle="Baltimore's premier specialists in professional bed bug heat treatment. We provide advanced thermal remediation that reaches every corner of your home, ensuring 100% eradication of bed bugs and their eggs in a single day. Discreet, eco-friendly, and effective."
+          subtitle="Eau Claire's premier specialists in professional mold remediation. We provide advanced mold removal techniques that restore air quality and protect your property from dangerous mold growth. Safe, certified, and fully guaranteed."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="BALTIMORE BED BUG HEAT TREATMENT PROS"
-          phone="3238801224"
+          badge="EAU CLAIRE MOLD REMEDIATION PROS"
+          phone="3802660944"
           features={[
-            { icon: Search, text: "Detection Experts" },
-            { icon: Zap, text: "Thermal Remediation" },
-            { icon: ShieldCheck, text: "100% Eradication" }
+            { icon: Microscope, text: "Mold Inspection" },
+            { icon: Wind, text: "Air Quality Testing" },
+            { icon: ShieldCheck, text: "Full Remediation" }
           ]}
         />
         <Services />
         <WhyUs />
-        <BedBugHeatTreatmentInfo />
+        <MoldRemediationInfo />
         <Contact />
         <FAQ />
 
@@ -114,10 +114,10 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Local Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://earwigexterminatordenver.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Earwig Exterminator Denver</a>
-              <a href="https://centipederepellenthawaii.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Centipede Repellent Hawaii</a>
-              <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Pest Control South Point Ohio</a>
-              <a href="https://rodentcontrolcorvallisoregon.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Rodent Control Corvallis Oregon</a>
+              <a href="https://bedbugexterminatorinwapakonetaohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Bed Bug Exterminator Wapakoneta Ohio</a>
+              <a href="https://chipmunkremovalbrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Chipmunk Removal Brooksville FL</a>
+              <a href="https://wildliferemovalgastonianc.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Wildlife Removal Gastonia NC</a>
+              <a href="https://wildliferemovaldouglasvillega.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Wildlife Removal Douglasville GA</a>
             </div>
           </div>
         </section>
@@ -131,4 +131,3 @@ const Index = () => {
 };
 
 export default Index;
-
