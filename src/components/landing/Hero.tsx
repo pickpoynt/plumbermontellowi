@@ -16,7 +16,7 @@ const Hero = ({
   subtitle = "Southwest Ranches' specialized experts in professional raccoon control and advanced exclusion techniques. Available 24/7.",
   image = "/1.jpeg",
   overlayImage = "/2.jpeg",
-  phone = "3238801224",
+  phone = "3802660944",
   badge = "SOUTHWEST RANCHES RACCOON PROS",
   features = [
     { icon: Search, text: "Detection Experts" },
